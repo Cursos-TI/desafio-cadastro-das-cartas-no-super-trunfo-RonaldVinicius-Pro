@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+#define NUM_CARTAS 5
+
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
@@ -34,7 +36,7 @@ void exibirCarta(Carta c) {
 // Função principal
 int main() {
                                // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-                               
+
     // Definindo as cartas
     Carta cartas[NUM_CARTAS] = {
         {"São Paulo", "SP01", "São Paulo", 12300000, 1521.11, 699.28, 15},
